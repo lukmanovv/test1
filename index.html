@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="frame260870673-container">
+        <div class="frame260870673-frame260870673">
+          <div class="frame260870673-frame2608643">
+            <div class="frame260870673-frame2608615">
+              <div class="frame260870673-frame26086975">
+                <div class="frame260870673-frame260870658">
+                  <div class="frame260870673-frame2608640">
+                    <div class="frame260870673-frame260870657">
+                      <span class="frame260870673-text DesktopHeadlineH3">
+                        <span>Buy $RAX on Seed Round!</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame260870673-frame2608631">
+                <div class="frame260870673-frame260870669">
+                  <div class="frame260870673-frame26086388">
+                    <span
+                      class="frame260870673-text02 DesktopTextbodySSemibold"
+                    >
+                      USD Raised:
+                    </span>
+                    <div class="frame260870673-frame260870674">
+                      <span class="frame260870673-text03 DesktopHeadlineH2">
+                        <span>$171,522</span>
+                      </span>
+                      <span class="frame260870673-text05">
+                        <span>/ $600,000</span>
+                      </span>
+                    </div>
+                  </div>
+                  <button class="frame260870673-button">
+                    <span class="frame260870673-text07">
+                      <span>68,608,979 /</span>
+                      <span class="frame260870673-text09">$75m</span>
+                    </span>
+                    <span
+                      class="frame260870673-text10 DesktopTextbodySSemibold"
+                    >
+                      <span>$RAX Sold</span>
+                    </span>
+                  </button>
+                </div>
+                <div class="frame260870673-frame9363">
+                  <div class="frame260870673-frame260870668">
+                    <span class="frame260870673-text12 DesktopTextbodySMedium">
+                      <span class="frame260870673-text13">Stage</span>
+                      <span>1/10: Seed Round</span>
+                    </span>
+                    <span class="frame260870673-text15 DesktopTextbodyXsBold">
+                      <span class="frame260870673-text16">Target:</span>
+                      <span>$187,500</span>
+                    </span>
+                  </div>
+                  <div class="frame260870673-frame9334">
+                    <img
+                      src="public/external/rectangle12262156-x21f-1500h.png"
+                      alt="Rectangle12262156"
+                      class="frame260870673-rectangle1226"
+                    />
+                    <div class="frame260870673-group2608631"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame260870673-frame260870671">
+                <div class="frame260870673-frame260870670">
+                  <button class="frame260870673-button1">
+                    <div class="frame260870673-frame260870659">
+                      <img
+                        src="public/external/image1612163-ipq-200w.png"
+                        alt="image1612163"
+                        class="frame260870673-image161"
+                      />
+                      <span
+                        class="frame260870673-text18 DesktopTextbodyXlSemibold"
+                      >
+                        <span>BSC</span>
+                      </span>
+                    </div>
+                    <img
+                      src="public/external/vector52165-tb3o.svg"
+                      alt="Vector52165"
+                      class="frame260870673-vector5"
+                    />
+                  </button>
+                  <div class="frame260870673-frame260870666">
+                    <div class="frame260870673-frame2608632">
+                      <div class="frame260870673-frame260870661">
+                        <span
+                          class="frame260870673-text20 DesktopTextbodyXsSemibold"
+                        >
+                          <span>You Pay</span>
+                        </span>
+                        <div class="frame260870673-frame26086321">
+                          <div class="frame260870673-frame2608636">
+                            <div class="frame260870673-usdt3">
+                              <div class="frame260870673-group">
+                                <img
+                                  src="public/external/vector2174-4ltu.svg"
+                                  alt="Vector2174"
+                                  class="frame260870673-vector"
+                                />
+                                <img
+                                  src="public/external/vector2175-wkaw.svg"
+                                  alt="Vector2175"
+                                  class="frame260870673-vector1"
+                                />
+                              </div>
+                              <img
+                                src="public/external/image4342176-lpmt-200h.png"
+                                alt="image4342176"
+                                class="frame260870673-image434"
+                              />
+                            </div>
+                            <img
+                              src="public/external/frame260868062177-qtxm.svg"
+                              alt="Frame260868062177"
+                              class="frame260870673-frame26086806"
+                            />
+                          </div>
+                          <div class="frame260870673-frame2608669">
+                            <span
+                              class="frame260870673-text22 DesktopTextbodyXxlSemibold"
+                            >
+                              0
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="public/external/frame2608706632181-p87q.svg"
+                        alt="Frame2608706632181"
+                        class="frame260870673-frame260870663"
+                      />
+                      <div class="frame260870673-frame260870662">
+                        <span
+                          class="frame260870673-text23 DesktopTextbodyXsSemibold"
+                        >
+                          <span>You Recieve</span>
+                        </span>
+                        <div class="frame260870673-frame26086322">
+                          <div class="frame260870673-frame2608637">
+                            <div class="frame260870673-monogram">
+                              <img
+                                src="public/external/raxtoken122188-sfxn-200h.png"
+                                alt="RAXtoken122188"
+                                class="frame260870673-ra-xtoken12"
+                              />
+                              <img
+                                src="public/external/image4352189-mcnv-200h.png"
+                                alt="image4352189"
+                                class="frame260870673-image435"
+                              />
+                            </div>
+                          </div>
+                          <div class="frame260870673-frame2608670">
+                            <span
+                              class="frame260870673-text25 DesktopTextbodyXxlSemibold"
+                            >
+                              0
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="frame260870673-frame26086323">
+                      <div class="frame260870673-frame260870665">
+                        <span class="frame260870673-text26">
+                          <span class="frame260870673-text27">1 RAX =</span>
+                          <span>$0.025</span>
+                        </span>
+                        <div class="frame260870673-frame260870664">
+                          <span class="frame260870673-text29">
+                            <span class="frame260870673-text30">
+                              Next Price =
+                            </span>
+                            <span>$0.05</span>
+                          </span>
+                          <div class="frame260870673-frame26086729">
+                            <button class="frame260870673-button2">
+                              <span
+                                class="frame260870673-text32 DesktopTextbodyXxsSemibold"
+                              >
+                                <span>+100%</span>
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="frame260870673-text34">
+                        <span class="DesktopTextbodyXsMedium">MIN</span>
+                        <span
+                          class="frame260870673-text36 DesktopTextbodyXsMedium"
+                        >
+                          $10
+                        </span>
+                        <span class="DesktopTextbodyXsMedium">MAX</span>
+                        <span class="frame260870673-text38">$20,000</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame260870673-frame2608633">
+                  <button class="frame260870673-button3">
+                    <span
+                      class="frame260870673-text39 DesktopTextbodyXxsSemibold"
+                    >
+                      <span>
+                        To purchase $RAX confirm 2 transactions:&nbsp;1) Approve
+                        token balance. 2) Buy RAX, If no transactions are
+                        received to your wallet, reconnect the wallet to the
+                        launchpad
+                      </span>
+                    </span>
+                  </button>
+                  <div class="frame260870673-group2608632">
+                    <button class="frame260870673-button4">
+                      <span class="frame260870673-text41 MobileHeadlineH4">
+                        <span>Buy $RAX</span>
+                      </span>
+                    </button>
+                  </div>
+                  <div class="frame260870673-frame26086968">
+                    <button class="frame260870673-button5">
+                      <img
+                        src="public/external/image1602209-ikpu-200w.png"
+                        alt="image1602209"
+                        class="frame260870673-image160"
+                      />
+                      <span
+                        class="frame260870673-text43 DesktopTextbodyXsSemibold"
+                      >
+                        <span class="frame260870673-text44">BSC:</span>
+                        <span>0xBbc...6F9</span>
+                      </span>
+                      <img
+                        src="public/external/contentcopyblack24dp22211-rq44.svg"
+                        alt="contentcopyblack24dp22211"
+                        class="frame260870673-contentcopyblack24dp2"
+                      />
+                    </button>
+                    <button class="frame260870673-button6">
+                      <div class="frame260870673-group8415">
+                        <img
+                          src="public/external/ellipse1822216-w25x-200h.png"
+                          alt="Ellipse1822216"
+                          class="frame260870673-ellipse182"
+                        />
+                        <img
+                          src="public/external/coinmarketcap122217-517h.svg"
+                          alt="coinmarketcap122217"
+                          class="frame260870673-coinmarketcap12"
+                        />
+                      </div>
+                      <span
+                        class="frame260870673-text46 DesktopTextbodyXsSemibold"
+                      >
+                        Add to CMC Watchlist
+                      </span>
+                    </button>
+                    <button class="frame260870673-button7">
+                      <div class="frame260870673-group2608577">
+                        <span class="frame260870673-text47">
+                          <span class="frame260870673-text48">Vesting:</span>
+                          <span></span>
+                          <span class="frame260870673-text50">
+                            10% on TGE / 3m cliff / Linear unlock 12m (15m
+                            total)
+                          </span>
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
